@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --hitam: #101214;
+    --abu2: #73808D;
+}
+
+.container {
+    border-top: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 5px;
+}
+
+/* Bagian Sebelah Kiri */
+.kiri  {
+    margin-right: 100px;
+}
+
+.brand {
+    width: 220px;
+    margin-bottom: 20px;
+    line-height: 38px;
+}
+
+.brand h1 {
+    font-size: 34px;
+    font-weight: 700;
+
+}
+
+.brand p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.experience {
+    font-size: 12px;
+    color: var(--abu2);
+    margin-bottom: 6px;
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    font-size: 16px;
+}
+
+.time {
+    color: var(--abu2);
+    font-size: 12px;
+}
+
+.education {
+    font-size: 12px;
+    color: var(--abu2);
+    margin-bottom: 6px;
+}
+
+/* Bagian Sebelah Kanan */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url('peaky.jpg');
+    background-size: cover;
+    background-position: -95px 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 32px;
+}
+
+.kanan {
+    color: var(--abu2);
+    width: 900px;
+}
+
+.contact, .industry, .tools, .skills, .languages, .social {
+    margin-bottom: 25px;
+}
+
+.kanan h3 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
